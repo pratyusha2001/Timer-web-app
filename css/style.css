@@ -1,0 +1,62 @@
+body{
+   background: linear-gradient(#0c1320, #243b55);
+    color:rgb(223, 115, 156); 
+    text-align: center;
+    padding-top:80px;
+    padding-bottom: 280px;
+    display:relative;
+    
+  }
+
+.container {
+    width:450px;
+    font-size:15px;
+    color:rgb(212, 26, 97);
+    border-style: solid;
+    border-color: rgb(212, 26, 97);
+    text-align: center;
+    padding:30px;
+    padding-right:70px;
+    padding-left: 50px;
+    background: rgba(3, 1, 29, 0.418);
+  
+  }
+  
+#text{
+    font-size:50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:  rgb(197, 37, 58);
+  }
+
+#time {
+    font-size: 52px;
+    margin-top: 2%;
+    padding-left: 20px;
+    margin-bottom: 10%;
+  }
+
+.bt1{
+padding:20px 40px;
+color:white;
+font-size: large;
+margin:5px;
+border-radius:50px;
+font-family: serif;
+background: rgb(212, 26, 97);
+border-color: rgb(212, 26, 97);
+text-align: center;
+cursor:pointer;
+}
+
+.bt1:hover {
+  font-weight: bold;
+  background:rgba(3, 1, 29, 0.418);
+  color:rgb(212, 26, 97);
+  border: none;
+  box-shadow: 0 0 10px 0 rgb(212, 26, 97), 0 0 10px 4px rgb(212, 26, 97);
+}
+
+.bt1:focus
+{
+  outline:none;
+}
